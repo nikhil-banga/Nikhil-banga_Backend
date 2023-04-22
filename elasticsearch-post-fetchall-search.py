@@ -43,14 +43,14 @@ app=FastAPI()
 
 
 @app.post('/letstrade/')
-async def updateData(trade: Trade):
+async def update_Json_File(trade: Trade):
     es = Elasticsearch(['http://localhost:9200'])
     es.index(index='trades', body=trade.dict())
     return trade
 
 
 @app.get("/all-trades")
-async def getTrades():
+async def all_trades():
     result = es.search(index='trades', body={'query': {'match_all': {}}})
     trades = [hit['_source'] for hit in result['hits']['hits']]
     return trades
@@ -59,8 +59,8 @@ async def getTrades():
 
 es = Elasticsearch(["http://localhost:9200"])
 
-@app.get("/trades/{trade_id}")
-async def fetchParticularTrade(trade_id: str):
+@app.get("/find-trade-by-unique-id/{trade_id}")
+async def fetch_Particular_Trade(trade_id: str):
     query = {
         "query": {
             "match": {
@@ -78,8 +78,8 @@ async def fetchParticularTrade(trade_id: str):
 
 
 
-@app.get("/search/{search}")
-async def letsFindTrade(search: str):
+@app.get("/search-trades-common/{search}")
+async def search_trades(search: str):
     query = {
         'query': {
             'bool': {
