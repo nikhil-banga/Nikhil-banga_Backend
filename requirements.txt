@@ -1,0 +1,4 @@
+pip3 install elasticsearch
+pip3 install fastapi
+
+docker compose up --build

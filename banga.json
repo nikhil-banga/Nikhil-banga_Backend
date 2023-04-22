@@ -1,0 +1,142 @@
+[
+  {
+    "asset_class": "Equity",
+    "counterparty": "John Smith",
+    "instrument_id": "AAPL",
+    "instrument_name": "Apple Inc.",
+    "trade_date_time": "2022-01-15T09:30:00",
+    "trade_details": {
+      "buySellIndicator": "BUY",
+      "price": 140.5,
+      "quantity": 100
+    },
+    "trade_id": "AAPL-1001",
+    "trader": "Jane Doe"
+  },
+  {
+    "asset_class": "FX",
+    "counterparty": "XYZ Bank",
+    "instrument_id": "EURUSD",
+    "instrument_name": "Euro / US Dollar",
+    "trade_date_time": "2022-02-10T14:15:00",
+    "trade_details": {
+      "buySellIndicator": "SELL",
+      "price": 1.22,
+      "quantity": 10000
+    },
+    "trade_id": "EURUSD-1002",
+    "trader": "John Smith"
+  },
+  {
+    "asset_class": "Equity",
+    "counterparty": "XYZ Broker",
+    "instrument_id": "TSLA",
+    "instrument_name": "Tesla Inc.",
+    "trade_date_time": "2022-03-20T11:00:00",
+    "trade_details": {
+      "buySellIndicator": "BUY",
+      "price": 800.25,
+      "quantity": 50
+    },
+    "trade_id": "TSLA-1003",
+    "trader": "Jane Doe"
+  },
+  {
+    "asset_class": "Commodities",
+    "counterparty": "ABC Bank",
+    "instrument_id": "GOLD",
+    "instrument_name": "Gold",
+    "trade_date_time": "2022-04-05T16:30:00",
+    "trade_details": {
+      "buySellIndicator": "SELL",
+      "price": 1725.5,
+      "quantity": 10
+    },
+    "trade_id": "GOLD-1004",
+    "trader": "John Smith"
+  },
+  {
+    "asset_class": "Equity",
+    "counterparty": "DEF Broker",
+    "instrument_id": "AMZN",
+    "instrument_name": "Amazon.com Inc.",
+    "trade_date_time": "2022-05-12T13:45:00",
+    "trade_details": {
+      "buySellIndicator": "SELL",
+      "price": 3200.75,
+      "quantity": 20
+    },
+    "trade_id": "AMZN-1005",
+    "trader": "Jane Doe"
+  },
+  {
+    "asset_class": "FX",
+    "counterparty": "ABC Bank",
+    "instrument_id": "USDJPY",
+    "instrument_name": "US Dollar / Japanese Yen",
+    "trade_date_time": "2022-06-22T10:00:00",
+    "trade_details": {
+      "buySellIndicator": "BUY",
+      "price": 110.5,
+      "quantity": 50000
+    },
+    "trade_id": "USDJPY-1006",
+    "trader": "John Smith"
+  },
+  {
+    "asset_class": "Equity",
+    "counterparty": "XYZ Broker",
+    "instrument_id": "GOOGL",
+    "instrument_name": "Alphabet Inc.",
+    "trade_date_time": "2022-07-18T15:30:00",
+    "trade_details": {
+      "buySellIndicator": "BUY",
+      "price": 2750,
+      "quantity": 30
+    },
+    "trade_id": "GOOGL-1007",
+    "trader": "Jane Doe"
+  },
+  {
+    "asset_class": "FX",
+    "counterparty": "DEF Bank",
+    "instrument_id": "GBPUSD",
+    "instrument_name": "British Pound / US Dollar",
+    "trade_date_time": "2022-08-02T11:30:00",
+    "trade_details": {
+      "buySellIndicator": "SELL",
+      "price": 1.38,
+      "quantity": 20000
+    },
+    "trade_id": "GBPUSD-1008",
+    "trader": "John Smith"
+  },
+  {
+    "asset_class": "Commodities",
+    "counterparty": "ABC Bank",
+    "instrument_id": "SILVER",
+    "instrument_name": "Silver",
+    "trade_date_time": "2022-09-10T09:00:00",
+    "trade_details": {
+      "buySellIndicator": "BUY",
+      "price": 23.5,
+      "quantity": 500
+    },
+    "trade_id": "SILVER-1009",
+    "trader": "Jane Doe"
+  },
+  {
+    "asset_class": "Equity",
+    "counterparty": "XYZ Broker",
+    "instrument_id": "NFLX",
+    "instrument_name": "Netflix Inc.",
+    "trade_date_time": "2022-10-05T14:00:00",
+    "trade_details": {
+      "buySellIndicator": "BUY",
+      "price": 600.25,
+      "quantity": 40
+    },
+    "trade_id": "NFLX-1010",
+    "trader": "John Smith"
+  }
+]
